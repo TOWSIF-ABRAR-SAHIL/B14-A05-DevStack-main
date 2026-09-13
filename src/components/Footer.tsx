@@ -60,4 +60,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+}// Footer layout styling
