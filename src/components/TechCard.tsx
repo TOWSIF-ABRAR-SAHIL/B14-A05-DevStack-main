@@ -62,4 +62,4 @@ export default function TechCard({ tech, onAddToStack, isAdded }: TechCardProps)
 
     </div>
   );
-}
+}// Tech card button states
