@@ -35,7 +35,7 @@ Dev Stack Builder is a simple web app for developers to explore technologies and
 **Answer:** `useEffect` runs code when component loads on screen. I used it for fetching `technologies.json` data once when the app starts.
 
 ### 5. Why does every item in a `.map()` list need a unique `key` prop?
-**Answer:** Unique `key` helps React know which item is changed or deleted. It makes list rendering faster and avoids unnecessary updates.
+**Answer:** React uses the unique `key` prop to identify which items in a list have been changed, added, or removed. It helps React update only the specific changed DOM elements efficiently instead of re-rendering the entire list from scratch.
 
 ### 6. What is conditional rendering? Show one place you used it (example: the empty stack message).
 **Answer:** Conditional rendering means showing different UI based on condition. In `StackSidebar.tsx`, if `stack.length === 0` it shows "Your stack is empty", otherwise it shows the added tech list.
