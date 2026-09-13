@@ -1,3 +1,6 @@
+
+live link :https://euphonious-begonia-6e7394.netlify.app/
+
 # 🧱 Dev Stack Builder
 
 Dev Stack Builder is a simple web app for developers to explore technologies and build their own tech stack.
@@ -44,3 +47,5 @@ Dev Stack Builder is a simple web app for developers to explore technologies and
 **Answer:** 
 - **Parent to Child:** Parent passes data using `props`.
 - **Child to Parent:** Parent passes a function to child as prop. When child calls that function with data, parent receives it.
+
+
